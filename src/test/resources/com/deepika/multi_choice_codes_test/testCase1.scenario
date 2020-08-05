@@ -37,7 +37,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-05 11:30:52.629 UTC</lastRunResult>
+  <lastRunResult>2020-08-05 11:58:44.757 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.deepika.multi_choice_codes_test</packageName>
