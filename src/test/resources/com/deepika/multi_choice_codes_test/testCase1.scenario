@@ -1,13 +1,48 @@
 <scenario>
-  <name>testCase1</name>
+  <name>testCase1.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>TestPOJOClass</type>
+      <fieldData>
+        <field-data>
+          <name>l1</name>
+          <value>&quot;ab&quot;</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>t9</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace>
+      <executionTimeResult>4</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>l2</fieldName>
+          <expected>[]</expected>
+          <actualResult>[]</actualResult>
+          <successResult>false</successResult>
+          <explanation>[TestPOJOClass] field [l2] was [[]] expected [[]].</explanation>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+      </fieldValues>
+      <name>TestPOJOClass</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
+  </fixtures>
+  <lastRunResult>2020-08-05 10:34:00.394 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.deepika.multi_choice_codes_test</packageName>
   <imports>
     <imports/>
   </imports>
-  <ksessions/>
+  <ksessions>
+    <string>defaultKieSession</string>
+  </ksessions>
 </scenario>
