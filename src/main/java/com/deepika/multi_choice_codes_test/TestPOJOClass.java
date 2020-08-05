@@ -8,8 +8,64 @@ public class TestPOJOClass implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    public TestPOJOClass() {
-    }
+private java.lang.String strVal;
+		private java.util.List<java.lang.Integer> list1 = new java.util.ArrayList<java.lang.Integer>();
+		private java.util.List<java.lang.Integer> list2 = new java.util.ArrayList<java.lang.Integer>();
+		private java.util.List<java.lang.Integer> list3 = new java.util.ArrayList<java.lang.Integer>();
+
+		private java.util.List<java.lang.String> l1 = new java.util.ArrayList<java.lang.String>();
+
+		private java.util.List<java.lang.String> l2 = new java.util.ArrayList<java.lang.String>();
+
+		public java.lang.String getStrVal() {
+			return this.strVal;
+		}
+
+		public void setStrVal(java.lang.String strVal) {
+			this.strVal = strVal;
+		}
+
+		public java.util.List<java.lang.Integer> getList1() {
+			return list1;
+		}
+
+		public void setList1(java.lang.Integer val) {
+			this.list1.add(val);
+		}
+
+		public java.util.List<java.lang.Integer> getList2() {
+			return list2;
+		}
+
+		public void setList2(java.lang.Integer val) {
+			this.list2.add(val);
+		}
+
+		public java.util.List<java.lang.Integer> getList3() {
+			return list3;
+		}
+
+		public void setList3(java.lang.Integer val) {
+			this.list3.add(val);
+		}
+
+		public java.util.List<java.lang.String> getL1() {
+			return this.l1;
+		}
+
+		public void setL1(String l1) {
+			this.l1.add(l1);
+		}
+
+		public java.util.List<java.lang.String> getL2() {
+			return this.l2;
+		}
+
+		public void setL2(String l2) {
+			this.l2.add(l2);
+		}
+
+	
 
 
 
