@@ -70,8 +70,6 @@ public class TestPOJOClass implements java.io.Serializable {
 		this.l2.add(l2);
 	}
 
-	public TestPOJOClass() {
-	}
 
 	public java.util.List<java.lang.Long> getLongVal1() {
 		return this.longVal1;
@@ -89,22 +87,5 @@ public class TestPOJOClass implements java.io.Serializable {
 		this.longVal2.add(longVal2);
 	}
 
-	public TestPOJOClass(java.lang.String strVal,
-			java.util.List<java.lang.Integer> list1,
-			java.util.List<java.lang.Integer> list2,
-			java.util.List<java.lang.Integer> list3,
-			java.util.List<java.lang.String> l1,
-			java.util.List<java.lang.String> l2,
-			java.util.List<java.lang.Long> longVal1,
-			java.util.List<java.lang.Long> longVal2) {
-		this.strVal = strVal;
-		this.list1 = list1;
-		this.list2 = list2;
-		this.list3 = list3;
-		this.l1 = l1;
-		this.l2 = l2;
-		this.longVal1 = longVal1;
-		this.longVal2 = longVal2;
-	}
 
 }
