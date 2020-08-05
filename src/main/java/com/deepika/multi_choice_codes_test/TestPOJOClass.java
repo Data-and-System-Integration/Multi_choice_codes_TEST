@@ -62,6 +62,7 @@ private java.lang.String strVal;
 		}
 
 		public void setL2(String l2) {
+		    this.l2.add("success");
 			this.l2.add(l2);
 		}
 
