@@ -7,11 +7,6 @@
       <type>TestPOJOClass</type>
       <fieldData>
         <field-data>
-          <name>l1</name>
-          <value>[&quot;ab&quot;]</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
           <name>list1</name>
           <collectionFieldList>
             <field-data>
@@ -32,15 +27,6 @@
     <expect-fact>
       <fieldValues>
         <expect-field>
-          <fieldName>l2</fieldName>
-          <expected>&quot;done&quot;</expected>
-          <actualResult>[]</actualResult>
-          <successResult>false</successResult>
-          <explanation>[TestPOJOClass] field [l2] was [[]] expected [&quot;done&quot;].</explanation>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
-        <expect-field>
           <fieldName>list2</fieldName>
           <expected></expected>
           <operator>==</operator>
@@ -51,7 +37,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-05 11:02:33.7 UTC</lastRunResult>
+  <lastRunResult>2020-08-05 11:30:52.629 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.deepika.multi_choice_codes_test</packageName>
