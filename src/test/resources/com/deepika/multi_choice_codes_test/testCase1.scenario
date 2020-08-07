@@ -7,37 +7,35 @@
       <type>TestPOJOClass</type>
       <fieldData>
         <field-data>
-          <name>longVal1</name>
-          <collectionFieldList>
-            <field-data>
-              <name>longVal1</name>
-              <value>10</value>
-              <nature>4</nature>
-            </field-data>
-          </collectionFieldList>
+          <name>strVal</name>
+          <value>&quot;rm&quot;</value>
+          <nature>4</nature>
         </field-data>
       </fieldData>
       <name>t9</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>8</executionTimeResult>
+      <executionTimeResult>12</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>longVal2</fieldName>
-          <expected>25</expected>
+          <expected></expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[TestPOJOClass] field [longVal2] was [] expected [].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>TestPOJOClass</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-05 11:58:44.757 UTC</lastRunResult>
+  <lastRunResult>2020-08-07 16:21:45.710 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.deepika.multi_choice_codes_test</packageName>
