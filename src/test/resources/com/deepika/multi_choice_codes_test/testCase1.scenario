@@ -7,11 +7,11 @@
       <type>TestPOJOClass</type>
       <fieldData>
         <field-data>
-          <name>list1</name>
+          <name>longVal1</name>
           <collectionFieldList>
             <field-data>
-              <name>list1</name>
-              <value>1</value>
+              <name>longVal1</name>
+              <value>10</value>
               <nature>4</nature>
             </field-data>
           </collectionFieldList>
@@ -27,8 +27,8 @@
     <expect-fact>
       <fieldValues>
         <expect-field>
-          <fieldName>list2</fieldName>
-          <expected></expected>
+          <fieldName>longVal2</fieldName>
+          <expected>25</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
