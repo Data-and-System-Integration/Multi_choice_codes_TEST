@@ -352,7 +352,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>20</valueString>
+        <valueString>20L</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
