@@ -83,8 +83,8 @@ public class TestPOJOClass implements java.io.Serializable {
 		return this.longVal2;
 	}
 
-	public void setLongVal2(java.lang.Long longVal2) {
-		this.longVal2.add(longVal2);
+	public void setLongVal2(java.lang.Long abc) {
+		longVal2.add(abc);
 	}
 
 
